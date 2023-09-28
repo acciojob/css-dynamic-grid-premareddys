@@ -1,15 +1,9 @@
 .grid-container{
 	display:grid;
 	gap:10px;
-	grid-row:100px;
-	grid-template-columns: repeat(9, 1fr);
+	width:100vw;
 	grid-template-columns: repeat(autofill, minmax(200px, 1fr));
 
-}
-*{
-	width: 100vw;
-	height:100vh;
-	box-sizing:border-box;
 }
 .grid-item{
 	display:flex;
